@@ -12,6 +12,8 @@ let ischeckerImportance = checkerImportance.checked
 
 creater.onclick = function(){
     console.log(ischeckerTime,note.value,ischeckerImportance)
-    note.value = ''
+    note.value = 'мяу'
 }
+
+
 console.log(ischeckerTime,note.value)
